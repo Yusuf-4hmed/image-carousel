@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="icon" href="assets/image.png">
+</head>
+<body>
+    <h1 class="w-xl mx-auto py-2 text-2xl font-bold">Image Carousel</h1>
+    <div class="flex items-center justify-center ml-auto mr-auto bg-gray-100 p-5 max-w-xl rounded-md mt-2">
+        <button class="w-20 h-40 sm:w-10 h-10 items-center ml-1 mr-1 bg-white rounded-md border border-gray-400 shadow cursor-pointer hover:bg-gray-100" id="back"><ion-icon name="arrow-back-outline"></ion-icon></button>
+            <div class="w-sm h-96 bg-blue-200 rounded-md mt-2" id="img-container">
+                <img class="w-sm h-96 object-cover rounded-md" src="assets/1.jpg" alt="" id="img">
+                <img class="w-sm h-96 object-cover rounded-md hidden" src="assets/2.jpg" alt="" id="img">
+                <img class="w-sm h-96 object-cover rounded-md hidden" src="assets/3.jpg" alt="" id="img">
+                <img class="w-sm h-96 object-cover rounded-md hidden" src="assets/4.jpg" alt="" id="img">
+                <img class="w-sm h-96 object-cover rounded-md hidden" src="assets/5.jpg" alt="" id="img">
+            </div>
+        <button class="w-20 h-40 sm:w-10 h-10 items-center ml-1 mr-1 bg-white rounded-md border border-gray-400 shadow cursor-pointer hover:bg-gray-100" id="next"><ion-icon name="arrow-forward-outline"></ion-icon></button>
+    </div>
+    
+</body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</html>
